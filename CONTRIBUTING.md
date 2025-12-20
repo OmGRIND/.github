@@ -1,16 +1,32 @@
 # CONTRIBUTING
 
-Для каждой отдельной темы (Алгебра, Математический анализ)
-создается отдельный репозиторий, который по сути является Obsidian Vault
+Есть несколько основных репозиториев (math, aads, dsml),
+каждый репозиторий является Obsidian Vault
 
-В каждом репозитории рекомендуется создать примерно такую структуру:
+## Math
 
 ```plaintext
-Definitions
-Axioms
-Theorems
-Lemmas
-Examples
+Definitions/
+Axioms/
+Theorems/
+Corollaries/
+Lemmas/
+Examples/
+README.md
+```
+
+### Example
+
+```plaintext
+Definitions/
+  Triangle.md
+Axioms/
+  PlayfairsAxiom.md
+Theorems/
+  PythagoreanTheorem.md
+Corollaries/
+Lemmas/
+Examples/
 README.md
 ```
 
